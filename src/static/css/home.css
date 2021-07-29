@@ -7,3 +7,14 @@
     margin-bottom: 30px;
 }
 
+.img{
+    width: 25px;
+}
+
+.span{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+

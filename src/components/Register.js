@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { getContract } from '../tezos';
 
-import '../CSS/register.css';
+import '../static/css/register.css';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import '../CSS/home.css'
+import '../static/css/home.css'
+import Transfer from './Transfer.js';
 
 import {getContractStorage} from '../tezos';
 
@@ -35,6 +36,9 @@ function Home(){
                             <div className="card-body">
                                 <h2 className="name">{user.name}</h2>
                                 <p className="bio">{user.bio}</p>
+                                <Transfer
+                                    address={user.address}
+                                />
                             </div>
                         </div>
                     </div>

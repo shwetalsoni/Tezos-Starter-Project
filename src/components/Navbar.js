@@ -1,5 +1,5 @@
 import React from 'react';
-import '../CSS/navbar.css'
+import '../static/css/navbar.css'
 import LoginButton from './LoginButton';
 import Register from './Register';
 
